@@ -1,5 +1,5 @@
 === Embed SalesVu ===
-Contributors: Gifford Nowland
+Contributors: gnowland
 Donate link: http://buymeacoff.ee/gnowland
 Tags: shortcode, iframe, embed, salesvu, store, e-store, reservations, shop
 Requires at least: 4.6
