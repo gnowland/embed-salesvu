@@ -1,6 +1,29 @@
 <?php
 
-namespace Roots\Sage\Shortcodes;
+/**
+ *
+ * @wordpress-plugin
+ * Plugin Name:         Embed SalesVu
+ * Plugin URI:          https://github.com/gnowland/embed-salesvu
+ * Description:         A WordPress Plugin for adding SalesVu <https://www.salesvu.com> store "widgets" to your website with a simple Shortcode.
+ * Version:             1.0.0
+ * Author:              Gifford Nowland
+ * Author URI:          https://github.com/gnowland
+ *
+ * License:             GPL-3.0+
+ * License URI:         https://www.gnu.org/licenses/gpl-3.0.en.html
+ *
+ * GitHub Plugin URI:   gnowland/embed-salesvu
+ * GitHub Branch:       release
+ *
+ * Text Domain:         embed-salesvu
+ * Domain Path:         /languages
+ *
+ * Attribution:
+ * I owe a ton of inspiration for version 0.2.0 of the plugin to https://github.com/webvitalii/iframe
+ *
+ */
+namespace Gnowland\EmbedSalesvu;
 
 /**
  * SalesVU Shortcode
