@@ -1,0 +1,24 @@
+{
+  "name": "gnowland/embed-salesvu",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "description": "A WordPress Plugin for adding SalesVu store \"widgets\" to your website with a simple Shortcode.",
+  "homepage": "https://github.com/gnowland/embed-salesvu",
+  "authors": [
+    {
+      "name": "Gifford Nowland",
+      "email": "hi@giffordnowland.com",
+      "homepage": "https://github.com/gnowland"
+    }
+  ],
+  "keywords": [
+    "wordpress", "wordpress plugin", "plugin", "shortcode", "iframe", "embed", "salesvu", "store", "e-store", "reservations", "shop"
+  ],
+  "support": {
+    "issues": "https://github.com/gnowland/embed-salesvu/issues"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
+  }
+}
