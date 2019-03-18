@@ -36,7 +36,7 @@ function salesvu_shortcode($atts) {
     'src'               => '',
     'script'            => '',
     'width'             => '100%',
-    'height'            => '500',
+    'height'            => '800',
     'scrolling'         => 'yes',
     'frameborder'       => '0',
     'style'             => [
