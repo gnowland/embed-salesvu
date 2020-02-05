@@ -45,7 +45,6 @@ function salesvu_shortcode($atts) {
       'width'       => '100%',
       'background'  => '#FFF'
     ],
-    // 'allowtransparency' => 'true', IE-only
     //'class'             => '',
     'id'                => 'tvoow',
     'same_height_as'    => false
