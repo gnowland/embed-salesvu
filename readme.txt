@@ -42,6 +42,7 @@ Embed SalesVu accepts the same parameters as the <iframe> html tag (plus some ex
 | `same_height_as`        | Set the height of the `<iframe>` to the same as target element | Class: `same_height_as="div.sidebar"` <br />ID: `same_height_as="div#content"` <br /> Tag: `same_height_as="body"` | `false`                                                           |
 | `any_other_param`       | Add an arbitrary parameter to the `<iframe>`                   | String: `any_other_param="any_value"`                                                                              | N/A                                                               |
 | `any_other_empty_param` | Add an empty parameter to the `<iframe>`                       | String: `any_other_empty_param`<br />`="allowfullscreen"`                                                          | N/A                                                               |
+
 == Changelog ==
 
 = 1.0.1 =
@@ -53,7 +54,7 @@ Embed SalesVu accepts the same parameters as the <iframe> html tag (plus some ex
 
 = 1.0.0 =
 * Initial Release
- 
+
 == Installation ==
 
 1. Install and Activate the Plugin on the Plugins Admin page
