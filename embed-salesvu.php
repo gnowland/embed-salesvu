@@ -36,7 +36,7 @@ function salesvu_shortcode($atts) {
     'src'               => '',
     'script'            => '',
     'width'             => '100%',
-    'height'            => '500',
+    'height'            => '800',
     'scrolling'         => 'yes',
     'frameborder'       => '0',
     'style'             => [
@@ -45,7 +45,6 @@ function salesvu_shortcode($atts) {
       'width'       => '100%',
       'background'  => '#FFF'
     ],
-    // 'allowtransparency' => 'true', IE-only
     //'class'             => '',
     'id'                => 'tvoow',
     'same_height_as'    => false
@@ -121,7 +120,8 @@ function salesvu_shortcode($atts) {
           window.iframe = "iframe<?php
           if (!empty($atts['id'])) {
             echo '#' . esc_attr($atts['id']);
-          } elseif (!empty($atts['class'])) {
+          }
+          if (!empty($atts['class'])) {
             echo '.' . str_replace(' ', '.', esc_attr($atts['class']));
           } ?>";
           window.target = "<?= esc_attr($atts['same_height_as']) ?>";
