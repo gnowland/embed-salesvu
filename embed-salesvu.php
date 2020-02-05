@@ -121,7 +121,8 @@ function salesvu_shortcode($atts) {
           window.iframe = "iframe<?php
           if (!empty($atts['id'])) {
             echo '#' . esc_attr($atts['id']);
-          } elseif (!empty($atts['class'])) {
+          }
+          if (!empty($atts['class'])) {
             echo '.' . str_replace(' ', '.', esc_attr($atts['class']));
           } ?>";
           window.target = "<?= esc_attr($atts['same_height_as']) ?>";
