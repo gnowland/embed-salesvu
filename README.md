@@ -14,7 +14,7 @@ WordPress removes `<iframe>` and `<script>` HTML tags for a variety of security 
 
 Embed SalesVu accepts the same parameters as the <iframe> html tag (plus some extras!):
 
-| Parameter               | Description                                                    | Accepts                                                                                                            | Default                                                           |
+| Parameter               | Description                                                    | Example                                                                                                            | Default                                                           |
 | ----------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
 | `src`                   | SalesVu Widget Store URL                                       | URL: `src="https://www.salesvu.com/widget-url?storeid=000&etc"`                                                    | N/A                                                               |
 | `script`                | SalesVu Widget Script URL                                      | URL: `script="https://www.salesvu.com/widget-script-url/script.js"`                                                | N/A                                                               |
