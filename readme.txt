@@ -2,7 +2,7 @@
 Contributors: gnowland
 Donate link: http://buymeacoff.ee/gnowland
 Tags: shortcode, iframe, embed, salesvu, store, e-store, reservations, shop
-Requires at least: 4.6
+Requires at least: 4.0
 Tested up to: 5.3
 Stable tag: 1.0.1
 License: GPLv3 or later
