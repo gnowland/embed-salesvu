@@ -17,7 +17,7 @@ Embed SalesVu accepts the same parameters as the <iframe> html tag (plus some ex
 | Parameter               | Description                                                    | Example                                                                                                            | Default                                                           |
 | ----------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
 | `src`                   | SalesVu Widget Store URL                                       | URL: `src="https://www.salesvu.com`<br />`/widget-url?storeid=000&etc"`                                            | N/A                                                               |
-| `script`                | SalesVu Widget Script URL                                      | URL: `script="https://www.salesvu.com`<br />`/widget-script-url/script.js"`                                        | N/A                                                               |
+| `script`                | SalesVu Widget Script URL                                      | URL: `script="https://www.salesvu.com`<br />`/widget-script-url/file.js"`                                          | N/A                                                               |
 | `width`                 | Widget width                                                   | Pixels: `width="500"` <br />Percent: `width="100%"`                                                                | `100%`                                                            |
 | `height`                | Widget height                                                  | Pixels: `height="800"`                                                                                             | `800`                                                             |
 | `scrolling`             | Allow or disallow scrolling                                    | Allow: `scrolling="yes"` <br />Disallow: `scrolling="no"`                                                          | `yes`                                                             |
@@ -31,3 +31,19 @@ Embed SalesVu accepts the same parameters as the <iframe> html tag (plus some ex
 | `any_other_param`       | Add an arbitrary parameter to the `<iframe>`                   | String: `any_other_param="any_value"`                                                                              | N/A                                                               |
 | `any_other_empty_param` | Add an empty parameter to the `<iframe>`                       | String: `any_other_empty_param`<br />`="allowfullscreen"`                                                          | N/A                                                               |
 
+## Changelog
+
+### 1.0.1
+* Docs: Add installation instructions and changelog to README
+* Docs: Added Parameters and HTTPS warning to README
+* Cleanup: Remove unsupported `allowtransparency` tag from parameters
+* Bugfix: Allow both ID & Classes in same_height_as
+* Improvements: Increase default height to 800px
+
+### 1.0.0
+* Initial Release
+ 
+## Installation
+
+1. Install and Activate the Plugin on the Plugins Admin page
+2. Add shortcode `[salesvu src="https://www.salesvu.com/widget-url?storeid=000&etc=etc" script="https://www.salesvu.com/widget-script-url/file.js"]` to page or post content
