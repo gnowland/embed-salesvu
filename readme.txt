@@ -34,7 +34,6 @@ Embed SalesVu accepts the same parameters as the `<iframe>` HTML tag (plus some 
 <td>Description</td>
 <td>Example</td>
 <td>Default</td>
-</td>
 </thead>
 <tbody>
 <tr>
@@ -69,7 +68,7 @@ Embed SalesVu accepts the same parameters as the `<iframe>` HTML tag (plus some 
 </tr>
 <tr>
 <td>`frameborder`</td>
-<td>Show or hide the `<iframe>` border</td>
+<td>Show or hide the iframe border</td>
 <td>Show: `frameborder="1"` <br /> Hide: `frameborder="0"`</td>
 <td>`0`</td>
 </tr>
@@ -87,42 +86,43 @@ Embed SalesVu accepts the same parameters as the `<iframe>` HTML tag (plus some 
 </tr>
 <tr>
 <td>`id`</td>
-<td>Add an ID to the `<iframe>`</td>
+<td>Add an ID to the iframe</td>
 <td>String: `id="anything"`</td>
 <td>`tvoow`</td>
 </tr>
 <tr>
 <td>`class`</td>
-<td>Add classes to the `<iframe>`</td>
+<td>Add classes to the iframe</td>
 <td>String: `class="class1 class2"`</td>
 <td>N/A</td>
 </tr>
 <tr>
 <td>`style`</td>
-<td>Add CSS styles to the `<iframe>`</td>
+<td>Add CSS styles to the iframe</td>
 <td>String: `style="margin: 30px; padding: 20px;"`</td>
 <td>`border: none; overflow: visible; width: 100%; background: #FFF;`</td>
 </tr>
 <tr>
 <td>`same_height_as`</td>
-<td>Set the height of the `<iframe>` to the same as target element </td>
+<td>Set the height of the iframe to the same as target element </td>
 <td>Class: `same_height_as="div.sidebar"` <br />ID: `same_height_as="div#content"` <br /> Tag: `same_height_as="body"`</td>
 <td>`false`</td>
 </tr>
 <tr>
 <td>`any_other_param`</td>
-<td>Add an arbitrary parameter to the `<iframe>`</td>
+<td>Add an arbitrary parameter to the iframe</td>
 <td>String: `any_other_param="any_value"`</td>
 <td>N/A</td>
 </tr>
 <tr>
 <td>`any_other_empty_param`</td>
-<td>Add an empty parameter to the `<iframe>`</td>
+<td>Add an empty parameter to the iframe</td>
 <td>String: `any_other_empty_param`<br />`="allowfullscreen"`</td>
 <td>N/A</td>
 </tr>
 </tbody>
 </table>
+
 == Changelog ==
 
 = 1.0.1 =
