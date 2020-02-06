@@ -25,7 +25,7 @@ WordPress removes `<iframe>` and `<script>` HTML tags for a variety of security 
 
 ## 👾 Parameters
 
-Embed SalesVu accepts the same parameters as the <iframe> html tag (plus some extras!):
+Embed SalesVu accepts the same parameters as the `<iframe>` HTML tag (plus some extras!):
 
 <table>
 <thead>
