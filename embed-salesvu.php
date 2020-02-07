@@ -4,9 +4,9 @@
  *
  * @wordpress-plugin
  * Plugin Name:         Embed SalesVu
- * Plugin URI:          https://github.com/gnowland/embed-salesvu
- * Description:         A WordPress Plugin for adding SalesVu <https://www.salesvu.com> store "widgets" (iframes) to your website with a simple Shortcode.
- * Version:             1.0.0
+ * Plugin URI:          https://wordpress.org/plugins/embed-salesvu/
+ * Description:         A WordPress Plugin for adding SalesVu <https://www.salesvu.com> store widgets to your website with a simple [salesvu] Shortcode.
+ * Version:             1.0.1
  * Author:              Gifford Nowland
  * Author URI:          https://github.com/gnowland
  *
