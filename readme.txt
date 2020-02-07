@@ -27,101 +27,89 @@ WordPress removes `<iframe>` and `<script>` HTML tags for a variety of security 
 
 Embed SalesVu accepts the same parameters as the `<iframe>` HTML tag (plus some extras!):
 
-<table>
-<thead>
-<tr>
-<td>Parameter</td>
-<td>Description</td>
-<td>Example</td>
-<td>Default</td>
-</thead>
-<tbody>
-<tr>
-<td>`src`</td>
-<td>SalesVu Widget Store URL</td>
-<td>URL: `src="https://www.salesvu.com`<br />`/widget-url?storeid=000&etc"`</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>`script`</td>
-<td>SalesVu Widget Script URL</td>
-<td>URL: `script="https://www.salesvu.com`<br />`/widget-script-url/file.js"`</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>`width`</td>
-<td>Widget width</td>
-<td>Pixels: `width="500"` <br />Percent: `width="100%"`</td>
-<td>`100%`</td>
-</tr>
-<tr>
-<td>`height`</td>
-<td>Widget height</td>
-<td>Pixels: `height="800"`</td>
-<td>`800`</td>
-</tr>
-<tr>
-<td>`scrolling`</td>
-<td>Allow or disallow scrolling</td>
-<td>Allow: `scrolling="yes"` <br />Disallow: `scrolling="no"`</td>
-<td>`yes`</td>
-</tr>
-<tr>
-<td>`frameborder`</td>
-<td>Show or hide the iframe border</td>
-<td>Show: `frameborder="1"` <br /> Hide: `frameborder="0"`</td>
-<td>`0`</td>
-</tr>
-<tr>
-<td>`marginheight`</td>
-<td>Height of the margin</td>
-<td>Pixels: `marginheight="10"`</td>
-<td>`0`</td>
-</tr>
-<tr>
-<td>`marginwidth`</td>
-<td>Width of the margin</td>
-<td>Pixels: `marginwidth="10"`</td>
-<td>`0`</td>
-</tr>
-<tr>
-<td>`id`</td>
-<td>Add an ID to the iframe</td>
-<td>String: `id="anything"`</td>
-<td>`tvoow`</td>
-</tr>
-<tr>
-<td>`class`</td>
-<td>Add classes to the iframe</td>
-<td>String: `class="class1 class2"`</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>`style`</td>
-<td>Add CSS styles to the iframe</td>
-<td>String: `style="margin: 30px; padding: 20px;"`</td>
-<td>`border: none; overflow: visible; width: 100%; background: #FFF;`</td>
-</tr>
-<tr>
-<td>`same_height_as`</td>
-<td>Set the height of the iframe to the same as target element </td>
-<td>Class: `same_height_as="div.sidebar"` <br />ID: `same_height_as="div#content"` <br /> Tag: `same_height_as="body"`</td>
-<td>`false`</td>
-</tr>
-<tr>
-<td>`any_other_param`</td>
-<td>Add an arbitrary parameter to the iframe</td>
-<td>String: `any_other_param="any_value"`</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>`any_other_empty_param`</td>
-<td>Add an empty parameter to the iframe</td>
-<td>String: `any_other_empty_param`<br />`="allowfullscreen"`</td>
-<td>N/A</td>
-</tr>
-</tbody>
-</table>
+### **`src`**
+
+* **Description:** SalesVu Widget Store URL
+* **Example:** URL: `src="https://www.salesvu.com/widget-url?storeid=000&etc"`
+* **Default:** N/A
+
+### **`script`**
+
+* **Description:** SalesVu Widget Script URL
+* **Example:** URL: `script="https://www.salesvu.com/widget-script-url/file.js"`
+* **Default:** N/A
+
+### **`width`**
+
+* **Description:** Widget width
+* **Example:** Pixels: `width="500"` <br /> Percent: `width="100%"`
+* **Default:** `100%`
+
+### **`height`**
+
+* **Description:** Widget height
+* **Example:** Pixels: `height="800"`
+* **Default:** `800`
+
+### **`scrolling`**
+
+* **Description:** Allow or disallow scrolling
+* **Example:** Allow: `scrolling="yes"` <br /> Disallow: `scrolling="no"`
+* **Default:** `yes`
+
+### **`frameborder`**
+
+* **Description:** Show or hide the iframe border
+* **Example:** Show: `frameborder="1"` <br /> Hide: `frameborder="0"`
+* **Default:** `0`
+
+### **`marginheight`**
+
+* **Description:** Height of the margin
+* **Example:** Pixels: `marginheight="10"`
+* **Default:** `0`
+
+### **`marginwidth`**
+
+* **Description:** Width of the margin
+* **Example:** Pixels: `marginwidth="10"`
+* **Default:** `0`
+
+### **`id`**
+
+* **Description:** Add an ID to the iframe
+* **Example:** String: `id="anything"`
+* **Default:** `tvoow`
+
+### **`class`**
+
+* **Description:** Add classes to the iframe
+* **Example:** String: `class="class1 class2"`
+* **Default:** N/A
+
+### **`style`**
+
+* **Description:** Add CSS styles to the iframe
+* **Example:** String: `style="margin: 30px; padding: 20px;"`
+* **Default:** `border: none; overflow: visible; width: 100%; background: #FFF;`
+
+### **`same_height_as`**
+* **Description:** Set the height of the iframe to the same as target element
+* **Example:** Class: `same_height_as="div.sidebar"` <br /> ID: `same_height_as="div#content"` <br /> Tag: `same_height_as="body"`
+* **Default:** `false`
+
+### **`any_other_param`**
+
+* **Description:** Add an arbitrary parameter to the iframe
+* **Example:** String: `any_other_param="any_value"`
+* **Default:** N/A
+
+### **`any_other_empty_param`**
+
+* **Description:** Add an empty parameter to the iframe
+* **Example:** String: `any_other_empty_param="allowfullscreen"`
+* **Default:** N/A
+
 
 == Changelog ==
 
