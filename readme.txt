@@ -25,24 +25,91 @@ WordPress removes `<iframe>` and `<script>` HTML tags for a variety of security 
 
 ## 👾 Parameters
 
-Embed SalesVu accepts the same parameters as the <iframe> html tag (plus some extras!):
+Embed SalesVu accepts the same parameters as the `<iframe>` HTML tag (plus some extras!):
 
-| Parameter               | Description                                                    | Example                                                                                                            | Default                                                           |
-| ----------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| `src`                   | SalesVu Widget Store URL                                       | URL: `src="https://www.salesvu.com`<br />`/widget-url?storeid=000&etc"`                                            | N/A                                                               |
-| `script`                | SalesVu Widget Script URL                                      | URL: `script="https://www.salesvu.com`<br />`/widget-script-url/file.js"`                                          | N/A                                                               |
-| `width`                 | Widget width                                                   | Pixels: `width="500"` <br />Percent: `width="100%"`                                                                | `100%`                                                            |
-| `height`                | Widget height                                                  | Pixels: `height="800"`                                                                                             | `800`                                                             |
-| `scrolling`             | Allow or disallow scrolling                                    | Allow: `scrolling="yes"` <br />Disallow: `scrolling="no"`                                                          | `yes`                                                             |
-| `frameborder`           | Show or hide the `<iframe>` border                             | Show: `frameborder="1"` <br /> Hide: `frameborder="0"`                                                             | `0`                                                               |
-| `marginheight`          | Height of the margin                                           | Pixels: `marginheight="10"`                                                                                        | `0`                                                               |
-| `marginwidth`           | Width of the margin                                            | Pixels: `marginwidth="10"`                                                                                         | `0`                                                               |
-| `id`                    | Add an ID to the `<iframe>`                                    | String: `id="anything"`                                                                                            | `tvoow`                                                           |
-| `class`                 | Add classes to the `<iframe>`                                  | String: `class="class1 class2"`                                                                                    | N/A                                                               |
-| `style`                 | Add CSS styles to the `<iframe>`                               | String: `style="margin: 30px; padding: 20px;"`                                                                     | `border: none; overflow: visible; width: 100%; background: #FFF;` |
-| `same_height_as`        | Set the height of the `<iframe>` to the same as target element | Class: `same_height_as="div.sidebar"` <br />ID: `same_height_as="div#content"` <br /> Tag: `same_height_as="body"` | `false`                                                           |
-| `any_other_param`       | Add an arbitrary parameter to the `<iframe>`                   | String: `any_other_param="any_value"`                                                                              | N/A                                                               |
-| `any_other_empty_param` | Add an empty parameter to the `<iframe>`                       | String: `any_other_empty_param`<br />`="allowfullscreen"`                                                          | N/A                                                               |
+### **`src`**
+
+* **Description:** SalesVu Widget Store URL
+* **Example:** URL: `src="https://www.salesvu.com/widget-url?storeid=000&etc"`
+* **Default:** N/A
+
+### **`script`**
+
+* **Description:** SalesVu Widget Script URL
+* **Example:** URL: `script="https://www.salesvu.com/widget-script-url/file.js"`
+* **Default:** N/A
+
+### **`width`**
+
+* **Description:** Widget width
+* **Example:** Pixels: `width="500"` <br /> Percent: `width="100%"`
+* **Default:** `100%`
+
+### **`height`**
+
+* **Description:** Widget height
+* **Example:** Pixels: `height="800"`
+* **Default:** `800`
+
+### **`scrolling`**
+
+* **Description:** Allow or disallow scrolling
+* **Example:** Allow: `scrolling="yes"` <br /> Disallow: `scrolling="no"`
+* **Default:** `yes`
+
+### **`frameborder`**
+
+* **Description:** Show or hide the iframe border
+* **Example:** Show: `frameborder="1"` <br /> Hide: `frameborder="0"`
+* **Default:** `0`
+
+### **`marginheight`**
+
+* **Description:** Height of the margin
+* **Example:** Pixels: `marginheight="10"`
+* **Default:** `0`
+
+### **`marginwidth`**
+
+* **Description:** Width of the margin
+* **Example:** Pixels: `marginwidth="10"`
+* **Default:** `0`
+
+### **`id`**
+
+* **Description:** Add an ID to the iframe
+* **Example:** String: `id="anything"`
+* **Default:** `tvoow`
+
+### **`class`**
+
+* **Description:** Add classes to the iframe
+* **Example:** String: `class="class1 class2"`
+* **Default:** N/A
+
+### **`style`**
+
+* **Description:** Add CSS styles to the iframe
+* **Example:** String: `style="margin: 30px; padding: 20px;"`
+* **Default:** `border: none; overflow: visible; width: 100%; background: #FFF;`
+
+### **`same_height_as`**
+* **Description:** Set the height of the iframe to the same as target element
+* **Example:** Class: `same_height_as="div.sidebar"` <br /> ID: `same_height_as="div#content"` <br /> Tag: `same_height_as="body"`
+* **Default:** `false`
+
+### **`any_other_param`**
+
+* **Description:** Add an arbitrary parameter to the iframe
+* **Example:** String: `any_other_param="any_value"`
+* **Default:** N/A
+
+### **`any_other_empty_param`**
+
+* **Description:** Add an empty parameter to the iframe
+* **Example:** String: `any_other_empty_param="allowfullscreen"`
+* **Default:** N/A
+
 
 == Changelog ==
 
