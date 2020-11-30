@@ -1,5 +1,8 @@
 == Changelog ==
 
+= 1.0.2 =
+* Docs: Fixed readme parameters table
+
 = 1.0.1 =
 * Docs: Add installation instructions and changelog to README
 * Docs: Added Parameters and HTTPS warning to README

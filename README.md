@@ -33,6 +33,9 @@ Embed SalesVu accepts the same parameters as the <iframe> html tag (plus some ex
 
 ## Changelog
 
+### 1.0.2
+* Docs: Fixed readme parameters table
+
 ### 1.0.1
 * Docs: Add installation instructions and changelog to README
 * Docs: Added Parameters and HTTPS warning to README
@@ -42,7 +45,7 @@ Embed SalesVu accepts the same parameters as the <iframe> html tag (plus some ex
 
 ### 1.0.0
 * Initial Release
- 
+
 ## Installation
 
 1. Install and Activate the Plugin on the Plugins Admin page
