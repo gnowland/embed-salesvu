@@ -5,7 +5,7 @@ Tags: shortcode, iframe, embed, salesvu, store, e-store, reservations, shop
 Stable tag: 1.0.1
 Requires PHP: 5.2.4
 Requires at least: 4.0
-Tested up to: 5.3
+Tested up to: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
