@@ -1,0 +1,7 @@
+.wordpress-org
+.editorconfig
+.git
+.gitattributes
+.gitignore
+.travis.yml
+README.md
